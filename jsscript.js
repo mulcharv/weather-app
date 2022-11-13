@@ -1,6 +1,6 @@
 
 const getCoord = function coordData(location, units) {
-    fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=ae3d8827969bcec0fd4b9ec4db407dd7
+    fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${location}&limit=1&appid=ae3d8827969bcec0fd4b9ec4db407dd7
     `, {mode: 'cors'})
 .then(function(response) {
     return response.json();
