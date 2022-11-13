@@ -1,0 +1,121 @@
+
+body {
+    display: grid;
+    justify-content: center;
+    font-family: 'Valera Round', sans-serif;
+    background-color:#FAECD1;
+    color: #4467C4;
+}
+
+.desc {
+    font-weight: bold;
+}
+
+#currentfirstline {
+    font-weight: bold;
+    font-size: large;
+}
+
+#locationname {
+    font-size: larger;
+}
+
+#pagecontainer {
+    display: grid;
+    max-width: 600px;
+    gap: 30px;
+    margin-top: 100px;
+    background-color: #FFDDAA;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+#title {
+    justify-self: center;
+    font-size: 35px;
+}
+
+#settingsbar {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 15px;
+}
+
+#degreetype {
+    display: grid;
+    grid-auto-flow: column;
+    gap: 5px;
+    width: 175px;
+    align-items: center;
+}
+
+#cityinput {
+    position: relative;
+}
+
+#search {
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    border-color: #89CFF0;
+    border-style: solid;
+    border-width: 3px;
+}
+
+label {
+    position: absolute;
+    left:5px;
+    top:-20px;
+}
+
+button {
+    width: 75px;
+    height: 30px;
+    background-color: #89CFF0;
+    border-radius: 6px;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #4169e1;
+}
+
+.clicked {
+    font-weight: bold;
+    color: black;
+}
+
+.unclicked {
+    color: darkgray;
+}
+
+#searchimg {
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+}
+
+#currentweather {
+    display: grid;
+    gap: 30px;
+}
+
+#currentfirstline {
+    display: grid;
+    grid-auto-flow: column;
+    align-items: center;
+}
+
+#currentsecondline {
+    display: grid;
+    grid-auto-flow: column;
+}
+
+
+#currentsecondline img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+

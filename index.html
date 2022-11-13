@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="pagecontainer">
+    <div id="title">Weather Checker</div>
+    <div id="settingsbar">
+        <div id="cityinput">
+        <input type="text" id="search" placeholder="city">
+        <label for="search" id="searchlabel"><img id="searchimg" src="magnify.svg">Enter City Name</label>
+        </div>
+        <div id="degreetype">
+            <button type="button" id="celcius" class="clicked">°C</button>
+            <div id="divider">|</div>
+            <button type="button" id="farenheit" class="unclicked">°F</button>
+        </div>
+        <div id="erromsg"></div>
+    </div>
+    <div id="currentweather">
+        <div id="currentfirstline">
+        <div id="weatherblock">
+            <div id="statuspic"><img id="statusimg"></div>
+            <div id="temperature"></div>
+        </div>
+        <div id="locationname"></div>
+        <div id="timestatus">
+            <div id="weatherdesc"></div>
+            <div id="timedate"></div>
+        </div>
+        </div>
+        <div id="currentsecondline">
+            <div id="feelslikeblock">
+                <div id="feelslikeimg"><img src="reshot-icon-thermometer-U75N3PCLT6.svg"></div>
+                <div id="feelslikedesc" class="desc">Feels like</div>
+                <div id="feelsliketemp"></div>
+            </div>
+            <div id="humidityblock">
+                <div id="humidityimg"><img src="reshot-icon-drops-liquid-LKG2B9TQMR.svg"></div>
+                <div id="humiditydesc" class="desc">Humidity</div>
+                <div id="humidityper"></div>
+            </div>
+            <div id="windblock">
+                <div id="windimg"><img src="reshot-icon-breeze-TJXHMB7CF2.svg"></div>
+                <div id="winddesc" class="desc">Wind</div>
+                <div id="wind"></div>
+            </div>
+            <div id="pressureblock">
+                <div id="pressureimg"><img src="reshot-icon-pressure-VUYSJ8XD6R.svg"></div>
+                <div id="pressuredesc" class="desc">Pressure</div>
+                <div id="pressure"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <script src="jsscript.js"></script>
+</body>
+</html>
